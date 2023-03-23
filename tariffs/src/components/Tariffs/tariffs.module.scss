@@ -1,0 +1,60 @@
+.tariff {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    margin: 5px 0.2em 20px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+
+    &:hover {
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    }
+    
+    &_name {
+        height: 50px;
+        border-bottom: 1px solid white;
+        color: #fff;
+    }
+
+    &_price {
+        height: 100px;
+        color: #fff;
+    }
+
+    &_speed {
+        background-color: rgb(235, 235, 235);
+        height: 50px;
+    }
+
+    &_limit {
+        background-color: rgb(224, 222, 222);
+        height: 70px;
+
+    }
+}
+p {
+    text-align: center;
+    padding: 0 5%;
+
+    span {
+        font-size: 50px;
+    }
+}
+.selected {
+    transform: scale(1,1.1);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
